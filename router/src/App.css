@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    font-size: 22px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav a.active{
+    background-color: brown;
+}
+
+.nav1{
+    text-align:start
+}
+
+.nav2{
+    text-align: end;
+}
